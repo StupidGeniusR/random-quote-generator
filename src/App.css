@@ -1,0 +1,69 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+h2 {
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  color: #808080;
+  margin: 10px 0;
+}
+li {
+  color: #808080;
+  margin: 10px 0;
+  list-style-type: none;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+  
+  .favorites-container {
+    width: 100%;
+  }
+
+  .filter-container {
+    margin-bottom: 10px;
+  }
+}
